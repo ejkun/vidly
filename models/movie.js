@@ -28,7 +28,7 @@ const movieSchema = new mongoose.Schema({
     },
 })
 
-const Movie = mongoose.model('Customer', movieSchema);
+const Movie = mongoose.model('Movie', movieSchema);
 
 function validateMovie(movie) {
     const schema = {
