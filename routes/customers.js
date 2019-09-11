@@ -3,8 +3,8 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', async (req, res) => {
-    const cutsomers = await Customer.find().sort('name');
-    res.send(cutsomers);
+    const customers = await Customer.find().sort('name');
+    res.send(customers);
 });
 
 router.post('/', async (req, res) => {
