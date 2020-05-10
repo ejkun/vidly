@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ejkun/vidly/issues"
   },
-  "homepage": "https://github.com/ejkun/vidly#readme"
+  "homepage": "https://github.com/ejkun/vidly#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "express": "^4.17.1"
+  }
 }
