@@ -1,0 +1,19 @@
+{
+  "name": "vidly",
+  "version": "1.0.0",
+  "description": "An application to rent movies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejkun/vidly.git"
+  },
+  "author": "Everton Barbosa Jr.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejkun/vidly/issues"
+  },
+  "homepage": "https://github.com/ejkun/vidly#readme"
+}
